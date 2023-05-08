@@ -96,3 +96,19 @@ nav {
 #nav-links .nav-icon {
     display: none;
 }
+
+/* HEADER KISMININ OLUŞTURULMASI*/
+header {
+    height: 562px;
+    padding-top: 10rem;
+}
+
+header .bg-image {
+    position: absolute;
+    background-image: url(images/4.gif);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    z-index: -1;
+}
