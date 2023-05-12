@@ -40,6 +40,32 @@ a {
 ul {
     list-style-type: none;
 }
+/*    BUTONLAR KISMI   */
+
+.buton {
+    margin-top: 2rem;
+    font-weight: 400;
+    display: inline-block;
+    border: 2px solid #d4c067;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.buton-outline {
+    background-color: #172950;
+    border-color: #d4c067;
+}
+.buton-outline:hover {
+    color: #fff;
+    background-color: #d4c067;
+    border-color: #fff;
+}
+.buton-large{
+    font-size: 2rem;
+    padding: 2.2rem 1.6rem;
+}
+
+
 
 /* Navbar Kısmının Oluşturulması*/
 
@@ -111,4 +137,46 @@ header .bg-image {
     height: 46rem;
     width: 100%;
     z-index: -1;
+}
+
+/* ABOUT KISMININ OLUŞTURULMASI */
+
+#about {
+    background-color: #172950;
+    color: #fff;
+
+}
+
+#about h2 {
+    font-size: 4.8rem;
+    text-align: center;
+}
+
+#about-text {
+    text-align: left;
+}
+
+#about-text .left {
+    float: left;
+    width: 50%;
+    padding-right: 2rem;
+    padding-left: 23rem;
+}
+
+#about-text .text {
+    font-size: 2rem;
+}
+
+#about-text .right {
+    float: right;
+    width: 50%;
+    padding-right: 23rem;
+    padding-left: 2rem;
+}
+#okul {
+    color: #d4c067;
+}
+
+.buton-large a{
+    color: #fff;
 }
