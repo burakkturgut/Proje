@@ -40,6 +40,12 @@ a {
 ul {
     list-style-type: none;
 }
+section {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+
+}
 /*    BUTONLAR KISMI   */
 
 .buton {
@@ -51,18 +57,33 @@ ul {
     cursor: pointer;
     transition: all 0.5s;
 }
+
 .buton-outline {
     background-color: #172950;
     border-color: #d4c067;
 }
+
 .buton-outline:hover {
     color: #fff;
     background-color: #d4c067;
     border-color: #fff;
 }
-.buton-large{
+
+.buton-large {
     font-size: 2rem;
     padding: 2.2rem 1.6rem;
+}
+
+.buton-gonder {
+    background-color: #172950;
+    border-color: #d4c067;
+    padding: 1.2rem 1rem;
+    color: #fff;
+}
+
+.buton-gonder:hover {
+    background-color: #d4c067;
+    border-color: #172950;
 }
 
 
@@ -173,10 +194,50 @@ header .bg-image {
     padding-right: 23rem;
     padding-left: 2rem;
 }
+
 #okul {
     color: #d4c067;
 }
 
-.buton-large a{
+.buton-large a {
     color: #fff;
+}
+
+/* CONTACT KSIMININ OLUŞTURULMASI */
+
+#contact {
+    background-color: #fff;
+}
+
+#contact h2 {
+    font-size: 4.8rem;
+    color: #d4c067;
+}
+
+#contact-form {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-grup {
+    border-bottom: 1px solid #d4c067;
+    padding-bottom: 3rem;
+    margin-bottom: 4rem;
+}
+
+.form-grup input,
+.form-grup textarea {
+    border: none;
+    width: 100%;
+    display: block;
+    font-size: 2.4rem;
+}
+
+.form-grup input:focus {
+    outline: 0;
+}
+
+.form-grup textarea:focus {
+    outline: 0;
 }
