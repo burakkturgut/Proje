@@ -46,6 +46,11 @@ section {
     text-align: center;
 
 }
+.col {
+    float: left;
+    width: 33.333%;
+    padding: 10px;
+}
 /*    BUTONLAR KISMI   */
 
 .buton {
@@ -86,7 +91,26 @@ section {
     border-color: #172950;
 }
 
+.buton-konum {
+    background-color: #d4c067;
+    border-color: #172950;
+    padding: 1.2rem 1rem;
 
+}
+
+.buton-konum:hover {
+    background-color: #172950;
+    border-color: #d4c067;
+    color: #fff;
+}
+
+.buton-sosyal {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    line-height: 2rem;
+}
 
 /* Navbar Kısmının Oluşturulması*/
 
@@ -240,4 +264,37 @@ header .bg-image {
 
 .form-grup textarea:focus {
     outline: 0;
+}
+
+/* FOOTER KISMI OLUŞTURULMASI */
+
+footer {
+    padding-bottom: 6rem;
+    background-color: #172950;
+    color: #fff;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 2.4rem;
+}
+
+footer p {
+    font-size: 2rem;
+    margin-top: 1rem;
+
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 0.7rem;
+}
+
+#devam {
+    color: #d4c067;
+    font-size: 2rem;
+}
+
+#Konum {
+    color: #fff;
 }
